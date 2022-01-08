@@ -24,3 +24,10 @@ h1 {
   grid-template-columns: 300px 300px
 }
 
+.logo {
+  background-color: rgb(255, 255, 255);
+  grid-row-start:1;
+  grid-row-end:2;
+  grid-column-start:1;
+  grid-column-end:2;
+}
