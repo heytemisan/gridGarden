@@ -21,13 +21,36 @@ h1 {
   color:white;
   /* grid-auto-rows: 90px; */
   grid-template-rows: 50px 100px;
-  grid-template-columns: 300px 300px
+  grid-template-columns: 300px 300px;
+  gap: 10px;
 }
 
 .logo {
   background-color: rgb(255, 255, 255);
-  grid-row-start:1;
-  grid-row-end:2;
-  grid-column-start:1;
-  grid-column-end:2;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.header {
+  background-color: rgb(255, 15, 159);
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.nav {
+  background-color: rgb(32, 39, 218);
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.content {
+  background-color: rgb(178, 254, 26);
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.footer {
+  background-color: rgb(9, 9, 9);
+  grid-row: 1/2;
+  grid-column: 1/2;
 }
