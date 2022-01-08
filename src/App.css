@@ -20,8 +20,8 @@ h1 {
   display: grid;
   color:white;
   /* grid-auto-rows: 90px; */
-  grid-template-rows: 50px 100px;
-  grid-template-columns: 300px 300px;
+  grid-template-rows: 50px 250px;
+  grid-template-columns: 15rem 20rem;
   gap: 10px;
 }
 
@@ -51,6 +51,6 @@ h1 {
 
 .footer {
   background-color: rgb(9, 9, 9);
-  grid-row: 1/2;
-  grid-column: 1/2;
+  grid-row: 2;
+  grid-column: 3;
 }
