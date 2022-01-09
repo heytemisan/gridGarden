@@ -20,7 +20,7 @@ h1 {
   margin-left: 160px;
   display: grid;
   color:white;
-  grid-template: 1fr 5fr 1fr/ 100px 500px;
+  grid-template: 1.5fr 5fr 1fr/ 100px 500px;
   gap: 10px;
   grid-template-areas:
   "logo header"
@@ -29,9 +29,14 @@ h1 {
 }
 
 .logo {
-  background-color: rgb(37, 240, 101);
   grid-area: logo;
   display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  background-color: rgba(11, 9, 9, 0.818);
 }
 
 .header {

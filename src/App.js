@@ -7,7 +7,7 @@ function App() {
       <div className="layout">
         <div className="logo">
           <div className="item">LOGO</div>
-          <div className="item">Business Name</div>
+          <div className="item">Kery Shop</div>
           <div className="item">Est 2021</div>
         </div>
         <div className="header">header</div>
