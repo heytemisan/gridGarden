@@ -23,12 +23,12 @@ h1 {
   margin-left: 160px;
   display: grid;
   color:white;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1fr 1fr 0.8fr;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  grid-template-rows: 0.4fr 2fr 1.2fr 0.8fr;
 }
 
 .nav {
-  background-color: white;
+  background-color: rgb(7, 201, 255);
 }
 
 .main {
@@ -54,6 +54,5 @@ h1 {
 footer {
   background-color:black;
 }
-
 }}
 
