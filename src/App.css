@@ -25,4 +25,35 @@ h1 {
   color:white;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr 0.8fr;
-}}}
+}
+
+.nav {
+  background-color: white;
+}
+
+.main {
+  background-color: rgb(97, 96, 96);
+}
+
+.sidebar {
+  background-color:blueviolet;
+}
+
+.content1 {
+  background-color: cadetblue;
+}
+
+.content2 {
+  background-color:gray;
+}
+
+.content3 {
+  background-color: hotpink;
+}
+
+footer {
+  background-color:black;
+}
+
+}}
+
