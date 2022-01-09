@@ -19,7 +19,7 @@ h1 {
   width:10vw;
   display: grid;
   color:white;
-  grid-template: 1fr 6fr 1fr/ 500px 200px;
+  grid-template: 0.5fr 5fr 1fr/ 500px 200px;
   gap: 10px;
   grid-template-areas:
   "logo header"
