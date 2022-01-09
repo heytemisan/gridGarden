@@ -15,6 +15,9 @@ h1 {
 }
 
 @media (grid:0) {
+
+  @media screen and (min-width:768px) {
+
 .layout {
   height:75vh;
   width:10vw;
@@ -59,4 +62,5 @@ h1 {
   background-color: rgb(9, 9, 9);
   grid-area: footer;
 }
+}    
 }
