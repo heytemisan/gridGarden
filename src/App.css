@@ -10,16 +10,17 @@ h1 {
   color:white;
   font-family: 'FeedjiqueRegular'; 
   text-align: center;
-  margin-top: 25px;
+  margin-top: 0px;
   padding: 20px;
 }
 
 .layout {
   height:75vh;
   width:10vw;
+  margin-left: 160px;
   display: grid;
   color:white;
-  grid-template: 0.5fr 5fr 1fr/ 500px 200px;
+  grid-template: 1fr 5fr 1fr/ 100px 500px;
   gap: 10px;
   grid-template-areas:
   "logo header"
@@ -30,6 +31,7 @@ h1 {
 .logo {
   background-color: rgb(37, 240, 101);
   grid-area: logo;
+  display: flex;
 }
 
 .header {

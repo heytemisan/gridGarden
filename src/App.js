@@ -5,7 +5,11 @@ function App() {
     <div className="App">
       <h1>CSS GRIDS</h1>
       <div className="layout">
-        <div className="logo">logo</div>
+        <div className="logo">
+          <div className="item">LOGO</div>
+          <div className="item">Business Name</div>
+          <div className="item">Est 2021</div>
+        </div>
         <div className="header">header</div>
         <div className="nav">nav</div>
         <div className="content">content</div>
