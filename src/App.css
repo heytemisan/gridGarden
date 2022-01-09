@@ -14,6 +14,7 @@ h1 {
   padding: 20px;
 }
 
+@media (grid:0) {
 .layout {
   height:75vh;
   width:10vw;
@@ -57,4 +58,5 @@ h1 {
 .footer {
   background-color: rgb(9, 9, 9);
   grid-area: footer;
+}
 }
