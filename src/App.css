@@ -16,7 +16,7 @@ h1 {
 
 @media (grid:0) {
 
-  @media screen and (min-width:768px) {
+@media screen and (min-width:768px) {
 
 .layout {
   height:75vh;
@@ -24,43 +24,4 @@ h1 {
   margin-left: 160px;
   display: grid;
   color:white;
-  grid-template: 1.5fr 5fr 1fr/ 100px 500px;
-  gap: 10px;
-  grid-template-areas:
-  "logo header"
-  "nav content"
-  "footer footer";
-}
-
-.logo {
-  grid-area: logo;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 13px;
-  align-items: center;
-  justify-content: center;
-  flex-direction:column;
-  background-color: rgba(11, 9, 9, 0.818);
-}
-
-.header {
-  background-color: rgb(255, 15, 159);
-  grid-area: header;
-}
-
-.nav {
-  background-color: rgb(32, 39, 218);
-  grid-area: nav;
-}
-
-.content {
-  background-color: rgb(178, 254, 26);
-  grid-area: content;
-}
-
-.footer {
-  background-color: rgb(9, 9, 9);
-  grid-area: footer;
-}
-}    
-}
+}}}
